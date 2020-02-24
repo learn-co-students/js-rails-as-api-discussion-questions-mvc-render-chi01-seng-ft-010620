@@ -5,6 +5,7 @@ class ResponsesController < ApplicationController
   # render the data according to the name of the action
   def plain
     data = "Early bird gets the worm. But cookie taste better than worm. So me sleep in. - Cookie Monster"
+    render :text
   end
 
   def html
